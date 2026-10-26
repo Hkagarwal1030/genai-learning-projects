@@ -1,0 +1,25 @@
+# Secrets and local environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python environments, caches, and build output
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/build/
+**/dist/
+**/*.egg-info/
+
+# JavaScript dependencies and build output
+**/node_modules/
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/settings.json
+**/.DS_Store
+Thumbs.db
